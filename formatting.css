@@ -1,0 +1,35 @@
+.header{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
+
+td{
+    padding: 10px;
+    align-items: center;
+}
+
+#title{
+  font-family: 'ABeeZee', sans-serif;
+  /*margin: 50%*/
+  font-size: 45px;
+}
+
+#pic{
+  padding-left: 34%;
+}
+
+#writing{
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.logo {
+  width: 500px;
+  height: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  /*top or bottom of page?*/
+}
