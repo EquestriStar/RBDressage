@@ -1,35 +1,78 @@
-.header{
+.header {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   text-align: center;
 }
 
-td{
-    padding: 10px;
-    align-items: center;
-}
-
-#title{
-  font-family: 'ABeeZee', sans-serif;
-  /*margin: 50%*/
-  font-size: 45px;
-}
-
-#pic{
-  padding-left: 34%;
-}
-
-#writing{
-  margin-top: 10px;
+.writing {
+  margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+#font {
+    font-family: 'Lato', sans-serif;
+}
+
+.ca {
+  padding: 15px;
+  padding-bottom: 25px;
+}
+
+.abtpic {
+    margin-left: 75px;
+    margin-top: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    float: left;
 }
 
 .logo {
-  width: 500px;
+  width: 350px;
   height: auto;
-  margin-left: 30%;
-  margin-right: 30%;
-  /*top or bottom of page?*/
+  border-radius: 60px;
+}
+
+.ca-center {
+  margin-left: 33%;
+  width: 50%;
+  padding: 10px;
+  display: block;
+}
+
+#ca-format {
+  border-radius: 25px;
+  width: auto;
+  height: 250px;
+}
+
+.contact {
+  text-align: center;
+  margin-left: 110px;
+  margin-top: 130px;
+  float: left;
+  display: block;
+  font-size: 20px;
+}
+
+.map {
+  width: 500px;
+  height: 400px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.container {
+  display: inline-block;
+  float: none;
+  margin-top: 30px;
+  margin-left: 9%;
+  margin-right: auto;
+  text-align: center;
+}
+
+.thumbnail img {
+  max-height: 100%;
 }

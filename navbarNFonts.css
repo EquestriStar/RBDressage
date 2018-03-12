@@ -1,6 +1,6 @@
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: #b29e82;
 }
 
 .topnav a {
@@ -11,8 +11,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 16px;
-  /*position: fixed;*/
+  font-size: 16px
 }
 
 .topnav a:hover {
@@ -24,24 +23,11 @@
   display: none;
 }
 
-#contact {
-  text-align: center;
-  margin-left: 100px;
-  margin-top: 150px;
-  float: left;
-  display: block;
+.active {
+  background-color: #ddd;
 }
 
-#map{
-    margin-left: 10%;
-    margin-top: 50px;
-}
-
-#logo {
-  width: 200px;
-  height: 35px;
-}
-
+/* hamburger icon rules */
 @media screen and (max-width: 1045px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -63,4 +49,8 @@
     text-align: left;
   }
 
+}
+
+body {
+  background-color: #e5dac9;
 }
