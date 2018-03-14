@@ -25,7 +25,7 @@
     margin-left: 75px;
     margin-top: 30px;
     margin-right: 15px;
-    display: inline-block;
+    display: block;
     float: left;
 }
 
@@ -75,4 +75,13 @@
 
 .thumbnail img {
   max-height: 100%;
+}
+
+footer {
+  background-color: #b29e82;
+  margin-top: 40px;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
 }
