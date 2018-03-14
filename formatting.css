@@ -80,7 +80,7 @@
 footer {
   background-color: #b29e82;
   margin-top: 40px;
-  position:fixed;
+  /* position:fixed; */
   left:0px;
   bottom:0px;
   width:100%;
